@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Record New Car Details</title>
+  <link rel="stylesheet" href="record car details.css">
+</head>
+<body>
+
+  <!-- Car Details Section -->
+  <div class="car-details-section">
+    <h2>Record New Car Details</h2>
+    <form id="car-details-form">
+      
+      <!-- Owner's Information -->
+      <div class="form-group">
+        <label for="owner-name">Owner's Name:</label>
+        <input type="text" id="owner-name" name="owner-name" placeholder="Enter owner's name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="owner-phone">Owner's Phone:</label>
+        <input type="tel" id="owner-phone" name="owner-phone" placeholder="Enter owner's phone number" required>
+      </div>
+      
+      <!-- Car Information -->
+      <div class="form-group">
+        <label for="car-make">Car Model:</label>
+        <input type="text" id="car-make" name="car-make" placeholder="Enter car make (e.g., Toyota)" required>
+       
+      </div>
+
+     
+
+      <div class="form-group">
+        <label for="license-plate">Car No.Plate:</label>
+        <input type="text" id="license-plate" name="license-plate" placeholder="Enter license plate number" required>
+      </div>
+
+      <div class="form-group">
+        <label for="parking-spot">Assigned Parking Spot:</label>
+        <input type="text" id="parking-spot" name="parking-spot" placeholder="Enter assigned parking spot" required>
+      </div>
+
+      <button type="submit">Submit Car Details</button>
+    </form>
+
+    <!-- Confirmation Message -->
+    <div id="confirmation-message"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

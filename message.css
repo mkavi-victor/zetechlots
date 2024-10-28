@@ -1,0 +1,35 @@
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.chat-container {
+    width: 300px;
+    margin: 50px auto;
+    background: wheat;
+    border-radius: 8px;
+    box-shadow: black;
+    overflow: hidden;
+}
+
+.chat-box {
+    height: 300px;
+    padding: 10px;
+    overflow-y: scroll;
+    border-bottom: 1px solid #ddd;
+}
+
+.chat-box div {
+    margin: 5px 0;
+}
+
+.send_button{
+    padding: 10px;
+    background-color: rgb(181, 171, 171);
+}
+

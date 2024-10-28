@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Notifications</title>
+  <link rel="stylesheet" href="notification.css">
+</head>
+<body>
+
+  <!-- Notifications Section -->
+  <div class="notifications-section">
+    <h2>Dashboard Notifications</h2>
+    
+    <!-- Notification Filters -->
+    <div class="notification-bars">
+      <button class="bars-btn" onclick="barsNotifications('all')">All</button>
+      <button class="bars-btn" onclick="barsNotifications('info')">Info</button>
+      <button class="bars-btn" onclick="barsNotifications('warning')">Warning</button>
+      <button class="bars-btn" onclick="barsNotifications('error')">Error</button>
+    </div>
+    
+    <!-- Notifications List -->
+    <div id="notifications-list">
+      <!-- Notifications will be rendered here -->
+    </div>
+
+    <button id="clear-notifications" onclick="clearAllNotifications()">Clear All</button>
+  </div>
+
+  <script src="notifications.js"></script>
+</body>
+</html>
